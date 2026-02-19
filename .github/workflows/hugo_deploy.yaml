@@ -49,7 +49,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.DEPLOYCODEEDGE_TOKEN }}
-          external_repository: iamxurulin/CodeEdgeSource
+          external_repository: iamxurulin/CodeEdge.github.io
           publish_branch: main
           publish_dir: ./public
           force_orphan: true
